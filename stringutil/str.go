@@ -1,5 +1,6 @@
 package stringutil
 
+//Reverse Function
 func Reverse(str string) string {
 	revstr := []rune(str)
 	strlen := len(revstr)
