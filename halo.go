@@ -11,6 +11,6 @@ func main(){
 	fmt.Print("What is your name? > ")
 	fmt.Scanf("%s", &name)
 	fmt.Printf("Hello " + name +" this is GO World!!\n")
-  fmt.Printf(stringutil.Reverse(name) + "\n")
+	fmt.Printf(stringutil.Reverse(name) + "\n")
 
 }
